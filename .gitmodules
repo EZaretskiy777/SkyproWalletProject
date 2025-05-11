@@ -1,0 +1,6 @@
+[submodule "SkyproWallet"]
+	path = SkyproWallet
+	url = https://github.com/EZaretskiy777/SkyproWallet.git
+[submodule "next-app"]
+	path = next-app
+	url = https://github.com/EZaretskiy777/next-app.git
