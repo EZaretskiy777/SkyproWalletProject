@@ -1,0 +1,13 @@
+{
+  "name": "my-hybrid-project",
+  "scripts": {
+    "vite:dev": "cd skyprowallet && npm run dev",
+    "next:dev": "cd next-app && npm run dev",
+    "dev": "concurrently \"npm run vite:dev\" \"npm run next:dev\"",
+    "build:vite": "cd vite-app && npm run build",
+    "build:next": "cd next-app && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
